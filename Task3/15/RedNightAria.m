@@ -14,7 +14,8 @@ X = [ones(size(X,1),1),X];
 init_theta = zeros(n,1);
 
 options = optimset('GradObj', 'on', 'MaxIter', 400);
-[theta, cost] = fminunc(@(t)(R_costFunction(t, X, Y)), init_theta, options);
+%[theta, cost] = fminunc(@(t)(R_gradFunc(t, X, Y)), init_theta, options);
+[theta, cost] = fminunc(@(t)(R_NewtonFunc(t, X, Y)), init_theta, options);
 
 plot_X = [min(X(:,2))-2, max(X(:,2))+2];
 plot_Y = -(theta(2).*plot_X + theta(1))/theta(3);
