@@ -81,3 +81,20 @@
 	* 有能力与毅力同学可以手撸BP网络来实现上述过程，将使你对神经网络的理解上一个台阶:)
 	
 **请于第八周结束前完成以上内容。**
+
+####6. Task5——Support Vector Machine
+
+1. 自行学习libsvm工具箱的使用(python/matlab)
+2. 在matlab或python环境下配置libsvm
+3. 成功运行、阅读并理解代码Task5/main.m，基本掌握libsvm的使用(例子中是回归SVM)
+4. 加载数据Task5/q1x.dat，Task5/q1y.dat
+5. 使用SVM对它们做分类
+6. 在Task5/15/目录下提交你的结果图(jpg、png、fig)与代码，以自己的github账户名作为文件名，如：sunyiyou.fig,sunyiyou.m
+7. 不建议手撸SVM，学长已趟过坑:)
+
+	支线任务：
+	* 在途中用特殊记号标出被作为支持向量的点
+	* 调整参数"-c"和"-g"并比较支持向量的分布情况
+
+	
+**请于第十周结束前完成以上内容。**
